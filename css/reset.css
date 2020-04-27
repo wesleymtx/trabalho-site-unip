@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: #fff;
+}
+body{
+    background-color: #2e64fe;
+}

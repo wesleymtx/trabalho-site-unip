@@ -1,0 +1,269 @@
+#cabecalho-principal{
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: space-between;
+    height: 100px;  
+}
+
+#menu-logo{
+    display: inline-block;
+}
+
+#menu-header{
+    display: inline-block;
+}
+
+#menu-header ul li{
+    display: inline;
+}
+
+#menu-header ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom:1px solid #EDEDED;
+    background-color: #26397fbb;
+}
+
+#menu-header ul li a:hover{
+    color: #fff200;
+    border-bottom: 1px solid #fff200;
+}
+
+.container{
+    margin: 0px 100px;
+}
+
+.item{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
+}
+.item:hover{
+    color: #fff200;
+    font-size: 30.7px;
+    width: 101%;
+}
+
+h1{
+    color: #fff200;
+}
+
+.banner{
+    width: 1149px;
+}
+
+
+/* rodape */
+.rodape{
+    text-align: center;
+    background-color: rgb(173, 173, 173);
+    font-size: 20px;
+}
+.rodape img{
+    width: 15%;
+    
+}
+#sociais{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icones{
+    width: 30px!important;
+    padding: 10;
+    
+}
+.paragrafo{
+    margin: 20px 100px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 25px;
+    background-color: rgba(10, 0, 143, 0.281);
+}
+
+.caixa{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    width: 40%;
+    height: 250px;
+    padding: 20px;
+    margin: 25px;
+    background-color: rgba(0, 102, 255, 0.836);
+}
+.caixa:hover{
+    background-color: rgb(0, 102, 255);
+}
+.caixa {
+    font-size: 24px;
+}
+.caixa:hover{
+    font-size: 25;
+}
+#cabecalho-caixa{
+    background-color: rgba(0, 0, 0, 0.288);
+    justify-content: space-between;
+    font-size: 20px;
+    display: flex;
+    margin: 50 100px;
+    flex-wrap: wrap;
+}
+#cabecalho-caixa .container h1{
+    margin-top: 8px;
+    padding: 00px 50px;
+    background-color: rgb(0, 35, 133);
+    border-radius: 10%;
+}
+#cabecalho-caixa .container h1:hover{
+    color: #fff539;
+    background-color: rgb(2, 38, 136);
+}
+#cabecalho:hover{
+    background-color: rgb(0, 35, 133);
+}
+#caixa-digital p{
+    margin: 30px;
+    font-size: 35px;
+    background-color: rgb(36, 163, 53);
+    border-radius: 10% 0 40% ;
+}
+#caixa-digital p:hover{
+    background-color: rgb(35, 173, 53);
+}
+
+#container-centro{
+    margin: 0px 100px 320px;
+}
+
+#itens{
+    width: 100%;
+    height: 210px;
+    float: right;
+}
+#item-enem{
+    background-color: #263a7f;
+}
+#item-fies{
+    background-color: #6993ca;
+}
+#item-imediata{
+    background-color: #263a7f;
+}
+#mapa{
+    margin-top: 15px;
+    width: 566.5px; /* 100% menos a borda */
+    height: 400px;
+    float: right; 
+    background-image: url(../imgs/mapa.png);
+    border: 4px solid #fff;
+}
+#mapa:hover{
+    border: 4px solid rgba(100, 100, 100, 0.932);
+}
+
+#graduacao{
+    width: 47%;
+    display: inline-block;
+}
+
+#graduacao tbody tr td a, #graduacao thead tr th{
+    color: #000000;
+    font-weight: 400;
+}
+#blocos{
+    display: inline-block; 
+    width: 50%; 
+    float: right;
+}
+
+/* tabela graduacao */
+table{
+    border-collapse: separate;
+    text-align: center; 
+}
+
+table, td, th {
+    border: 0px solid rgb(255, 255, 255);
+}
+
+td{
+    height: 85px;
+    font-size: 20px;
+    background-color: #fff;
+} 
+td:hover{
+    border-radius: 5% 0% 0%;
+    
+}
+
+th{
+    font-size: 25px;
+    height: 80px;
+}
+caption{
+    font-size: 50px;
+    font-weight: 700;
+    background-color: #263a7f;
+    color: #fff200;
+}
+
+caption:hover{
+    font-size: 50.5px;
+    background-color: #223370;
+}
+
+/* ead */
+#container-ead-icones{
+    margin: 50px 0 80px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: lavender;
+    height: 730px;
+}
+.icones-ead{
+    display: inline-block;
+    height: 300px;
+}
+.icones-ead img{
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.icones-ead p{
+    text-align: center;
+    font-size: 17px;
+    background-color: #000;
+}
+#container-ead-superior{
+    background-color: lavender;
+    width: 1149px;
+    height: 350px;
+      
+}
+#container-ead-superior p{
+    background-color: rgb(209, 68, 68);
+    font-size: 25px;
+    margin: 25px;
+    text-align: center;
+}
+#container-ead-superior p:hover{
+    background-color: rgb(226, 44, 44);
+}
+#container-ead-superior h1{
+    background-color: rgba(2, 0, 133, 0.685);
+    font-size: 30px;
+    margin: 8px 8px;
+    text-align: center;
+    color: #ffffff;
+}
+#container-ead-superior h1:hover{
+    background-color: rgba(2, 0, 133, 0.884);
+}

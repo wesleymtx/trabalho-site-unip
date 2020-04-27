@@ -1,0 +1,44 @@
+.telaform{
+    display: flex;
+    padding: 55px 0px;
+    margin-bottom: 140px;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.288);
+    font-size: 20px;
+}
+form input, form textarea{
+    color: #000;
+    height: 40px;
+    font-size: 20px;
+}
+form label{
+    padding: 0px 3px;
+}
+#label-email{
+    width: 400px;
+}
+select{
+    color: #000;
+    background-color: dodgerblue;
+    font-size: 20px;
+}
+::placeholder{
+    color: rgba(26, 26, 26, 0.534);
+}
+input{
+    background-color: dodgerblue;
+}
+.botao-input{
+    display: block;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 0 25px;
+    margin: 50px auto 0;
+    color: rgb(53, 53, 53);
+    background-color: #fff;
+    width: 15%;
+    text-align: center;
+}
+.botao-input:hover{
+    color: rgb(24, 24, 24);
+}
