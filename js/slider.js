@@ -3,13 +3,15 @@ var imgs = [];
         var btnP = document.getElementById("proximo");
         var btnV = document.getElementById("voltar");
         var barra = document.getElementById("barra");
+        var dvload = document.getElementById("dvload")
+        console.log(dvload)
         var imagemAtual = 0;
         var indice = 0;
 
         function animacao(){
             indice+= 1;
 
-            if(indice===1080){
+            if(indice===dvload.clientWidth){
                 imagemAtual++;
                 indice = 0;             
             }
